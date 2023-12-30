@@ -66,6 +66,14 @@
                       <span class="input-group-addon">р.</span>
                     </div>
                   </div>
+                  <p>Количество комнат</p>
+                  <div class="form-group ">
+                    <div class="input-group">
+                      <span class="input-group-addon"></span>
+                      <input autocomplete="off" type="number" value="{%if rooms_number %}{{rooms_number}}{%endif%}" name="rooms_number" class="form-control js-price-format" placeholder="любая">
+                      <span class="input-group-addon"></span>
+                    </div>
+                  </div>
                   <button type="submit" class="btn btn-success" style="margin-top:15px; margin-bottom:25px;">Показать</button>
                 </div>
               </form>
